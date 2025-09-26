@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Customer Support Ticketing\\Customer Support\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\customer support.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\customer support.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\converter\\statusiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\converter\\statusiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\converter\\prioritycolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\converter\\prioritycolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\viewmodel\\ticketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\viewmodel\\ticketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\viewmodel\\firestore_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\viewmodel\\firestore_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\resources\\raw\\firebase_credentials.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\resources\\raw\\firebase_credentials.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|d:\\customer support ticketing\\customer support\\customer support\\model\\supportticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5039F7E-3D24-46FA-A9B0-E9DC412578E2}|Customer Support\\Customer Support.csproj|solutionrelative:customer support\\model\\supportticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5da8d69b-058a-4294-a87a-f4f7ae2983b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Customer Support\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\MainPage.xaml.cs",
+              "RelativeToolTip": "Customer Support\\MainPage.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:05:46.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusIconConverter.cs",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Converter\\StatusIconConverter.cs",
+              "RelativeDocumentMoniker": "Customer Support\\Converter\\StatusIconConverter.cs",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Converter\\StatusIconConverter.cs",
+              "RelativeToolTip": "Customer Support\\Converter\\StatusIconConverter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:05:41.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PriorityColorConverter.cs",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Converter\\PriorityColorConverter.cs",
+              "RelativeDocumentMoniker": "Customer Support\\Converter\\PriorityColorConverter.cs",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Converter\\PriorityColorConverter.cs",
+              "RelativeToolTip": "Customer Support\\Converter\\PriorityColorConverter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:05:38.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketViewModel.cs",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\ViewModel\\TicketViewModel.cs",
+              "RelativeDocumentMoniker": "Customer Support\\ViewModel\\TicketViewModel.cs",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\ViewModel\\TicketViewModel.cs",
+              "RelativeToolTip": "Customer Support\\ViewModel\\TicketViewModel.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T03:05:31.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "firebase_credentials.json",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Resources\\Raw\\firebase_credentials.json",
+              "RelativeDocumentMoniker": "Customer Support\\Resources\\Raw\\firebase_credentials.json",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Resources\\Raw\\firebase_credentials.json",
+              "RelativeToolTip": "Customer Support\\Resources\\Raw\\firebase_credentials.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-26T03:03:27.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer Support",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Customer Support.csproj",
+              "RelativeDocumentMoniker": "Customer Support\\Customer Support.csproj",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Customer Support.csproj",
+              "RelativeToolTip": "Customer Support\\Customer Support.csproj",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-26T03:01:13.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Firestore_Service.cs",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\ViewModel\\Firestore_Service.cs",
+              "RelativeDocumentMoniker": "Customer Support\\ViewModel\\Firestore_Service.cs",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\ViewModel\\Firestore_Service.cs",
+              "RelativeToolTip": "Customer Support\\ViewModel\\Firestore_Service.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T04:33:34.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Customer Support\\MainPage.xaml",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\MainPage.xaml",
+              "RelativeToolTip": "Customer Support\\MainPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-11T13:23:25.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SupportTicket.cs",
+              "DocumentMoniker": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Model\\SupportTicket.cs",
+              "RelativeDocumentMoniker": "Customer Support\\Model\\SupportTicket.cs",
+              "ToolTip": "D:\\Customer Support Ticketing\\Customer Support\\Customer Support\\Model\\SupportTicket.cs",
+              "RelativeToolTip": "Customer Support\\Model\\SupportTicket.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T12:47:25.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

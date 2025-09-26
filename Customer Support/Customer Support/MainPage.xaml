@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+             xmlns:input="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             xmlns:local="clr-namespace:Customer_Support.ViewModel"
+             xmlns:model="clr-namespace:Customer_Support.Model"
+             xmlns:coverter="clr-namespace:Customer_Support.Converter"
+             x:Class="Customer_Support.MainPage"
+             Title="Customer Support Ticketing System">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <coverter:PriorityColorConverter x:Key="priorityColorConverter"/>
+            <coverter:StatusIconConverter x:Key="statusIconConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.BindingContext>
+        <local:TicketViewModel x:Name="viewModel" />
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="Auto,*" Padding="10" RowSpacing="10">
+
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="10">
+            <SearchBar x:Name="SearchBar"
+                   Placeholder="Search"
+                   PlaceholderColor="Gray"
+                   FontSize="14"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   HeightRequest="40"
+                   WidthRequest="400"
+                   Grid.Column="0"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   SearchButtonPressed="searchBar_SearchButtonPressed"
+                   TextChanged="searchBar_TextChanged"/>
+
+            <input:SfComboBox x:Name="CustomerComboBox"
+                          x:DataType="local:TicketViewModel"
+                          WidthRequest="200"
+                          HeightRequest="40"
+                          Placeholder="Sorting"
+                          DisplayMemberPath="Name"
+                          ItemsSource="{Binding TicketProperties}"
+                          SelectionChanged="CustomerComboBox_SelectionChanged"
+                          Grid.Column="1"
+                          EnableAutoSize="True"
+                          HorizontalOptions="Start"
+                          VerticalOptions="Center"/>
+
+            <Button Text="Export Ticket Logs"
+                    BackgroundColor="DodgerBlue"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    HeightRequest="40"
+                    WidthRequest="160"
+                    Grid.Column="2"
+                    HorizontalOptions="End"
+                    VerticalOptions="Center"
+                    Clicked="OnExportClicked"/>
+        </Grid>
+
+        <syncfusion:SfDataGrid x:Name="dataGrid"
+                           x:DataType="local:TicketViewModel"
+                           Grid.Row="1"
+                           AutoGenerateColumnsMode="None"
+                           ColumnWidthMode="Auto"
+                           GridLinesVisibility="Both"
+                           HeaderGridLinesVisibility="Both"
+                           ItemsSource="{Binding Tickets}">
+
+
+        <syncfusion:SfDataGrid.DefaultStyle>
+            <syncfusion:DataGridStyle HeaderRowBackground="LightGray"  HeaderRowTextColor="Black"/>
+        </syncfusion:SfDataGrid.DefaultStyle>
+
+        <syncfusion:SfDataGrid.Columns>
+
+            <syncfusion:DataGridTextColumn MappingName="TicketID" HeaderText="Ticket ID"/>
+
+            <syncfusion:DataGridTextColumn MappingName="CustomerName" HeaderText="Customer Name"/>
+
+            <syncfusion:DataGridTextColumn MappingName="IssueType" HeaderText="Issue Type"/>
+
+            <syncfusion:DataGridTemplateColumn MappingName="Priority" HeaderText="Priority" Width="150">
+                <syncfusion:DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate x:DataType="model:SupportTicket">
+                            <Border StrokeThickness="0"
+                                    Background="{Binding Priority, Converter={StaticResource priorityColorConverter}}"
+                                    Padding="6,2"
+                                    StrokeShape="RoundRectangle 6"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+                            <Label Text="{Binding Priority}"
+                                   TextColor="White"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"/>
+                        </Border>
+                    </DataTemplate>
+                </syncfusion:DataGridTemplateColumn.CellTemplate>
+            </syncfusion:DataGridTemplateColumn>
+
+
+            <syncfusion:DataGridTemplateColumn MappingName="Status" HeaderText="Status" Width="150">
+                <syncfusion:DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate x:DataType="model:SupportTicket">
+                        <Grid Padding="20,0,0,0" ColumnSpacing="5" VerticalOptions="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0"
+                                    Source="{Binding Status, Converter={StaticResource statusIconConverter}}"
+                                    WidthRequest="16"
+                                    HeightRequest="16"
+                                    VerticalOptions="Center"/>
+
+                            <Label Grid.Column="1"
+                                    Text="{Binding Status}"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Start"
+                                    FontSize="14"/>
+                        </Grid>
+                    </DataTemplate>
+                </syncfusion:DataGridTemplateColumn.CellTemplate>
+            </syncfusion:DataGridTemplateColumn>
+
+
+            <syncfusion:DataGridTextColumn MappingName="SLA" HeaderText="SLA"/>
+            <syncfusion:DataGridTextColumn MappingName="AssignedAgent" HeaderText="Assigned Agent"/>
+            <syncfusion:DataGridDateColumn MappingName="DateCreated"
+                                            HeaderText="Date Created"
+                                            Format="yyyy-MM-dd" />
+
+
+
+            </syncfusion:SfDataGrid.Columns>
+    </syncfusion:SfDataGrid>
+
+    </Grid>
+
+</ContentPage>
